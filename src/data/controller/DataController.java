@@ -36,7 +36,11 @@ public class DataController
 	
 	public void testStacks()
 	{
-		
-		
+		logPile.push(new Logs(true, "blue", 74));
+		logPile.push(new Logs(true, "blue", 74));
+		logPile.push(new Logs(true, "blue", 74));
+		logPile.push(new Logs(true, "blue", 74));
+		logPile.pop();
+		logPile.peek();
 	}
 }

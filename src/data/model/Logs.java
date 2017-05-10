@@ -12,6 +12,13 @@ public class Logs
 		this.color = "Red";
 		this.tons = 1000;
 	}
+	
+	public Logs(boolean rollable, String color, int tons)
+	{
+		this.rollable = rollable;
+		this.color = color;
+		this.tons = tons;
+	}
 
 	public boolean isRollable() 
 	{
